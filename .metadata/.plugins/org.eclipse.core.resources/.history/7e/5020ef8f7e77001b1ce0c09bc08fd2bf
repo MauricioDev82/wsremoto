@@ -1,0 +1,53 @@
+package br.com.concessionaria.principal;
+
+import javax.swing.JOptionPane;
+
+import br.com.concessionaria.modelo.Carro;
+
+public class TesteCarro {
+
+	public static void main(String[] args) {
+		//instanciando um objeto
+		Carro objeto = new Carro();
+		objeto.preencherCor(JOptionPane.showInputDialog("Digite a cor"));
+		System.out.println(objeto.retornarCor());
+		
+		objeto.ligar();
+		System.out.println(objeto.retornarResumo());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

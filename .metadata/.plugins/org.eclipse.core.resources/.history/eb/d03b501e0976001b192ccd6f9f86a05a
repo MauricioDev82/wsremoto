@@ -1,0 +1,74 @@
+package decisao;
+
+public class DecisaoEncadeadaDesafio {
+
+	/**
+	 * @param args
+	 */
+	/**
+	 * @param args
+	 */
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		/*
+		 * Capturar:
+		 * me do produto
+		 * genero do produto (alimenticio, eletronico.....)
+		 * quantidade
+		 * valor unitario
+		 * ocê deverá calcular o imposto sobre o valor unitário
+		 * se for alimenticio o imposto é 5%
+		 * se for eletronico o imposto é 7%
+		 * se a quantidade for maior que 100, o imposto será menor 1%
+		 * se a quantidade for entre 50 e 100, o imposto será menor 0.5%
+		 * se a quantidade for menor que 50 o imposto será integral
+		 * 
+		 */
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

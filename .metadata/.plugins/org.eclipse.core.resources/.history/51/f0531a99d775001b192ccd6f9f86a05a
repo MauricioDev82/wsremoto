@@ -1,0 +1,31 @@
+package variaveis;
+
+public class TipoString {
+
+	public static void main(String[] args) {
+		//String é um tipo de Referência
+		
+		String email = "mauRicio.goMes-cosTa@itau-unibaNco.com.br";
+		System.out.println("Original: " + email);
+		System.out.println("Minisculo: " + email.toLowerCase());
+		System.out.println("Maiusculo: " + email.toUpperCase());
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

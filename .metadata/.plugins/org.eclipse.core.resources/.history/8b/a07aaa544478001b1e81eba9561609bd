@@ -1,0 +1,69 @@
+package br.com.ecommerce.principal;
+
+import br.com.ecommerce.modelo.Cliente;
+
+public class TesteCliente {
+
+	public static void main(String[] args) {
+		
+		Cliente c = new Cliente();
+		Cliente c2 = new Cliente(
+				9,
+				"mauricio",
+				"mauricio@itau",
+				"1234-5678"
+				
+				);
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

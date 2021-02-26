@@ -1,0 +1,59 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		/*
+		 * 
+		 */
+		
+		
+		
+		byte dia = Byte.parseByte(JOptionPane.showInputDialog("Dia"));
+		byte mes = Byte.parseByte(JOptionPane.showInputDialog("Mês"));
+		String ano = JOptionPane.showInputDialog("Ano");
+		
+		while (dia>31 || mes>12 || ano.length()>4) {
+			System.out.println("Data Inválida");
+		}
+		System.out.println(dia + " / " + mes + " / " + ano);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

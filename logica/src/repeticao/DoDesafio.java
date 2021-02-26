@@ -1,0 +1,84 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DoDesafio {
+
+	public static void main(String[] args) {
+		/*
+		 * Missão 1
+		 * Jogador1 vai digitar um número
+		 * Jogador2 vai ter que adivinhar o numero
+		 * 
+		 * Jogador2 só pode receber a mensagem de "parabéns" quando ele acertar
+		 * 
+		 * Missão 2
+		 * Acrescentar dicas para o Jogador2 (número menor ou maior)
+		 * 
+		 * Missão 3
+		 * acrescentar na mensagem de parabéns a quantidade de tentativas
+		 * Dica: criar uma variável para contar
+		 * 
+		 */
+		
+		String resposta ="";
+		int jogador1 = 0;
+		int jogador2 =0;
+		int contagem = 0;
+		
+		jogador1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador1"));
+		do {
+			
+			jogador2 = Integer.parseInt(JOptionPane.showInputDialog("Jogador 2"));
+			contagem = contagem+1;
+			//contagem++;
+			//contagem+=1;
+			
+			if (jogador2>jogador1) {
+				System.out.println("Digite um número menor");
+			}else if (jogador2<jogador1) {
+				System.out.println("Digite um número maior");
+			}
+
+		}while (jogador1!=jogador2); 
+			System.out.println("Parabéns Jogador 2 você acertou com "+ contagem +" tentativas");
+			
+			
+		
+			
+		
+		
+
+	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+
+	}
+
+}

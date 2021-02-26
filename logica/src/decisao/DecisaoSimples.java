@@ -1,0 +1,57 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoSimples {
+
+	public static void main(String[] args) {
+		String email = JOptionPane.showInputDialog("Digite aqui o seu email");
+		if (email.contains("@")==true) {
+			System.out.println("Usuário: " + email.substring(0, email.indexOf("@")));
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

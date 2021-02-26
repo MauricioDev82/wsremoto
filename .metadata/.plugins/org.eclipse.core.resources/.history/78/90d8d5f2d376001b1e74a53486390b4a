@@ -1,0 +1,60 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		String nome = JOptionPane.showInputDialog("Digite seu nome");
+		String escolaridade = JOptionPane.showInputDialog("Escolaridade");
+		String superior = "superior";
+		String medio = "medio";
+		String pos = "pos";
+		
+		if (!escolaridade.equalsIgnoreCase("superior")); {
+			System.out.println("Escolaridade inválida");
+		}
+		System.out.println("Nome: " + nome);
+		System.out.println("Escolaridade: " + escolaridade);
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

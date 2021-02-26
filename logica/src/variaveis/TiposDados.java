@@ -1,0 +1,72 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TiposDados {
+	/*
+	 * Classes Wrappers: apoiam os tipos primitivos
+	 * 
+	 * int => Integer
+	 * Double => Double
+	 * Float => Float
+	 */
+
+	public static void main(String[] args) {
+	
+		String nome = JOptionPane.showInputDialog("Digite o seu nome");
+		int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a sua idade"));
+		double altura = Double.parseDouble(JOptionPane.showInputDialog("Digite a sua altura"));
+		double peso = Double.parseDouble(JOptionPane.showInputDialog("Digite o seu peso"));
+		double imc = peso / (altura * altura);
+		
+		//Peçam o peso
+		//Criar uma variavel chamada IMC (fazer o calculo)
+		//Exibir o IMC
+		
+		
+		System.out.println("Nome..: " + nome);
+		System.out.println("Idade.: " + idade + " anos");
+		System.out.println("Altura: " + altura + " metros");
+		System.out.println("Peso..: " + peso + " quilos");
+		System.out.println("IMC...: " + imc); 
+		
+	
+		
+		
+	/*
+	 * Existem dois tipos de dados:
+	 * Alfanúmerico: um dado que você não utiliza em operações aritméticas
+	 * CEP: 00010-009 => 00010-009 
+	 * (e um contexto em que ele não esteja entre os dados mais críticos)
+	 * String representa um dado alfanúmerico no Java.
+	 * 
+	 * Númerico: é o dado que pode ser utilizado em operações aritméticas e/ou for um dado critico para pesquisa.
+	 * CEP: 00010-009 => 1
+	 * (em um contexto dos Correios, onde ele é um dado crítico)
+	 * Dois tipos:
+	 * - Inteiro que no Java é int (quando é número inteiro)
+	 * - Real que no Java é double (quando é relevante as casas decimais depois da vírgula)
+	 */
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+}

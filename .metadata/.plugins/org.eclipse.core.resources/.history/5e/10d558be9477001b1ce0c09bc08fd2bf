@@ -1,0 +1,136 @@
+package br.com.caicai.modelo;
+
+import javax.swing.JOptionPane;
+
+public class Elevador {
+	/*
+	 * * configurar(): deverá preencher os atributos andarMaximo, andarMinimo e 
+capacidadeMaxima, com os parâmetros recebidos respectivamente
+	 * subir(): o andarAtual deverá ser incrementado em 1 somente se 
+o andarAtual não for igual ao andarMaximo.
+	 * descer(): o andarAtual deverá ser decrementado em 1 somente se 
+o andarAtual não for igual ao andarMinimo.
+	 * sair(): deverá remover o valor recebido do atributo 
+qtdePessoas, desde que não seja menor que 0.
+	 * entrar(): deverá acrescentar o valor recebido no atributo 
+qtdePessoas, desde que não exceda a capacidade máxima.
+	 * subir (andar): deverá acrescentar ao andarAtual o parâmetro recebido,
+desde que não exceda o andarMaximo.
+	 * exibirResumo(): deve exibir: andarAtual, qtdePessoas e o nome do elevador.
+	 * 
+	 * 
+	 */
+
+
+	private String nome;
+	private short andarMaximo;
+	private short andarMinimo;
+	private short andarAtual;
+	private byte capacidadeMaxima;
+	private byte qtdePessoas;
+	
+	public void configurar (short maximo,short minimo,byte capacidade) {
+		
+		
+	}
+	
+	public void preencherNome(String param) {
+		nome = param;
+		
+	}
+	
+	public String retornarNome() {
+		return nome;
+	}
+	
+	public void subir() {
+		if (andarAtual!=andarMaximo) {
+			andarAtual++;
+		}
+	}
+	
+	public void descer() {
+		if (andarAtual!=andarMinimo) {
+			andarAtual--;			
+		}
+	}
+	
+	public byte entrar(byte qtde) {
+		if (qtde!=capacidadeMaxima) {
+			qtde = qtdePessoas;
+		}
+		return qtdePessoas;
+		
+		
+	}
+	
+	public byte sair(byte qtde) {
+		if (qtdePessoas>0) {
+			qtdePessoas--;
+		}
+		return qtdePessoas;
+	}
+	
+	public void subir(byte param) {
+		if (andarAtual!=andarMaximo) {
+			
+			
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
